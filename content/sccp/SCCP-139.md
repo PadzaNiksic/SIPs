@@ -11,7 +11,7 @@ created: 2021-09-23
 ## Simple Summary
 <!--"If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the SCCP.-->
 
-Re-enable the deprecated sXTZ (Tezos),sRUNE (THORchain),sYFI (yearn.finance),sCRV (Curve DAO Token),sUNI (Uniswap),sXRP (Ripple),sBNB (Binance Coin) and sXAU (Gold Ounce) price feeds until their currently live Thales markets are resolved properly.
+Re-enable the deprecated price feeds of sXTZ (Tezos), sRUNE (THORchain), sYFI (yearn.finance), sCRV (Curve DAO Token), sUNI (Uniswap), sXRP (Ripple), sBNB (Binance Coin) and sXAU (Gold Ounce) until their currently live Thales markets are resolved properly.
 
 ## Abstract
 <!--A short (~200 word) description of the variable change proposed.-->
@@ -20,18 +20,18 @@ Re-enable the deprecated sXTZ (Tezos),sRUNE (THORchain),sYFI (yearn.finance),sCR
 
 Those 8 price feeds and their respective markets and maturity dates on Thales are: 
 
-sXTZ (Tezos) XTZ@30.09.2021
-sRUNE (THORchain) RUNE@30.09.2021
-sYFI (yearn.finance) YFI@15.10.2021
-sCRV (Curve DAO Token) CRV@31.12.2021
-sUNI (Uniswap) UNI@31.12.2021
-sXRP (Ripple) XRP@31.12.2021
-sBNB (Binance Coin) BNB@31.12.2021
-sXAU (Gold Ounce) XAU@31.12.2021
+- sXTZ (Tezos) XTZ@30.09.2021
+- sRUNE (THORchain) RUNE@30.09.2021
+- sYFI (yearn.finance) YFI@15.10.2021
+- sCRV (Curve DAO Token) CRV@31.12.2021
+- sUNI (Uniswap) UNI@31.12.2021
+- sXRP (Ripple) XRP@31.12.2021
+- sBNB (Binance Coin) BNB@31.12.2021
+- sXAU (Gold Ounce) XAU@31.12.2021
 
 To support and properly resolve these 8 markets that are currently live using price feeds from deprecated synths, Thales needs these price feeds re-enabled as soon as possible. 
 
-Important disclaimer: Re-enabling these price feeds will NOT re-enable trading of said Synths that propagate these price feeds, hence this SCCP will not have any effect on the Synthetix debt pool and this SCCP will not affect the redemption value of outstanding synths.
+Important disclaimer: Re-enabling these price feeds will NOT re-enable trading of said Synths that propagate these price feeds, hence this SCCP will not have any effect on the Synthetix debt pool.
 
 As per listed maturity dates above, it is visible that the shortest market is due to be resolved in 6 days from the time of writing this SCCP, so we again emphasize the time sensitivity of voting in this SCCP and, hopefully, implementing it before the live markets are due for maturity. 
 
